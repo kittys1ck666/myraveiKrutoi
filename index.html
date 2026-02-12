@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Муравей — Wild Animals</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #1e2b2e;
+            color: #dcd7ba;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            width: 100%;
+            padding: 20px;
+            border: 2px dashed #a3b09a;
+            background-color: #1e2b2e;
+            text-align: center;
+        }
+        h1, h2, h3, h4 {
+            color: #f3e9c0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-align: center;
+        }
+        hr {
+            border: none;
+            border-top: 2px dashed #6a7e6a;
+            width: 80%;
+        }
+        .highlight {
+            background-color: #2f3e3e;
+            padding: 10px;
+            border-left: 6px solid #b38b5f;
+            text-align: left;
+            margin: 20px 0;
+        }
+        .note {
+            font-style: italic;
+            color: #b6c9b0;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #6a7e6a;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        ul {
+            list-style-position: inside;
+            text-align: center;
+            padding-left: 0;
+        }
+        li {
+            text-align: center;
+            list-style-type: none;
+            margin: 5px 0;
+        }
+        li::before {
+            content: "• ";
+            color: #b38b5f;
+            font-weight: bold;
+        }
+        p {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Wild Animals</h1>
+        <p class="note">- Blog about nature -</p>
+        <hr>
+
+        <h2>Let's talk about wild animals around the world:</h2>
+
+        <!-- Блок про муравья (Ant) -->
+        <h1>🐜 Ant</h1>
+
+        <!-- Изображение муравья из папки img -->
+        <img src="img/myravei.png" alt="Крутой муравей">
+
+        <h3>AREA:</h3>
+        <p>ALL CONTINENTS EXCEPT ANTARCTICA</p>
+
+        <h3>Weight:</h3>
+        <p>1–5 mg (0.001–0.005 g)</p>
+
+        <h3>Height:</h3>
+        <p>0.5–2 cm</p>
+
+        <div class="highlight">
+            <strong>🔥 Cool fact:</strong> Ants can carry 10–50 times their own body weight! They build underground cities with millions of inhabitants.
+        </div>
+
+        <h3>🛠 Skills:</h3>
+        <ul>
+            <li>Super strength</li>
+            <li>Teamwork</li>
+            <li>Farming fungi</li>
+            <li>Raising aphids as "cattle"</li>
+        </ul>
+
+        <hr>
+        <p class="note">— Ants are the real rulers of Earth. —</p>
+    </div>
+</body>
+</html>
